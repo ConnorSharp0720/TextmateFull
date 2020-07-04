@@ -1,0 +1,7 @@
+CREATE TABLE users (
+    idUsers int(11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    uidUSers TINYTEXT NOT NULL,
+    emailUsers TINYTEXT NOT NULL,
+    phoneUsers TINYTEXT NOT NULL,
+    pwdUsers LONGTEXT
+);
